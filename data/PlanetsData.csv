@@ -1,0 +1,10 @@
+planet,distance,diameter,revolution,position
+Mercury,36,3030,88,1
+Venus,67,7520,225,2
+Earth,93,7926,365,3
+Mars,142,4217,687,4
+Jupiter,484,88838,4332,5
+Saturn,887,74896,10760,6
+Uranus,1765,31762,30684,7
+Neptune,2791,30774,60188,8
+Pluto,3654,1428,90467,9
