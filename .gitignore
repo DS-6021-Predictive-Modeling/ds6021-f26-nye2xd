@@ -18,6 +18,9 @@ wheels/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+#CLAUDE generated files
+CLAUDE/
+
 # R files in case used in future
 .Rhistory
 *.R
