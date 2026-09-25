@@ -1,5 +1,6 @@
 # General
 .DS_Store
+misc/
 
 #VS Code
 .vscode/
