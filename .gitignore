@@ -23,6 +23,7 @@ wheels/
 CLAUDE/
 
 # R files in case used in future
+R_files/
 .Rhistory
 *.R
 *.Rproj.user
