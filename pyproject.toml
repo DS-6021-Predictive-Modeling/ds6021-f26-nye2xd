@@ -5,8 +5,9 @@ description = "DS 6021 Fall 2026"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ds6021b @ git+https://github.com/mfriedel/ds6021b-py@v0.1.0", 
+    "ds6021b @ git+https://github.com/mfriedel/ds6021b-py@v0.1.0",
     "ipykernel>=7.3.0",
+    "kmodes>=0.12.2",
     "matplotlib>=3.11.0",
     "nbformat>=5.10.4",
     "pandas>=3.0.3",
