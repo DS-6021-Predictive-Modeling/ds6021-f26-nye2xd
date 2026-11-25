@@ -243,6 +243,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "ds6021b" },
     { name = "ipykernel" },
+    { name = "kmodes" },
     { name = "matplotlib" },
     { name = "nbformat" },
     { name = "pandas" },
@@ -257,6 +258,7 @@ dependencies = [
 requires-dist = [
     { name = "ds6021b", git = "https://github.com/mfriedel/ds6021b-py?rev=v0.1.0" },
     { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "kmodes", specifier = ">=0.12.2" },
     { name = "matplotlib", specifier = ">=3.11.0" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "pandas", specifier = ">=3.0.3" },
@@ -553,6 +555,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/0f/41/c5f71f9f00aabcc71fee8b7475e3f64747282580c2fe748961ba29b18385/kiwisolver-1.5.0-graalpy312-graalpy250_312_native-macosx_11_0_arm64.whl", hash = "sha256:f6764a4ccab3078db14a632420930f6186058750df066b8ea2a7106df91d3203", size = 138036, upload-time = "2026-03-09T13:15:36.894Z" },
     { url = "https://files.pythonhosted.org/packages/fa/06/7399a607f434119c6e1fdc8ec89a8d51ccccadf3341dee4ead6bd14caaf5/kiwisolver-1.5.0-graalpy312-graalpy250_312_native-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c31c13da98624f957b0fb1b5bae5383b2333c2c3f6793d9825dd5ce79b525cb7", size = 194295, upload-time = "2026-03-09T13:15:38.22Z" },
     { url = "https://files.pythonhosted.org/packages/b5/91/53255615acd2a1eaca307ede3c90eb550bae9c94581f8c00081b6b1c8f44/kiwisolver-1.5.0-graalpy312-graalpy250_312_native-win_amd64.whl", hash = "sha256:1f1489f769582498610e015a8ef2d36f28f505ab3096d0e16b4858a9ec214f57", size = 75987, upload-time = "2026-03-09T13:15:39.65Z" },
+]
+
+[[package]]
+name = "kmodes"
+version = "0.12.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib" },
+    { name = "numpy" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5c/16/e2b5222bb5efabc56259215bbc9e94df9ee08a43b5a9ed33aae28ce2dade/kmodes-0.12.2.tar.gz", hash = "sha256:d840ac9f4616a668ebacba24a12ec1def87da24a9fd0a0dc2f7499a9b9a6f45b", size = 18883, upload-time = "2022-09-06T19:36:37.14Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1a/a8/0d3bf6f3340cbcb8cf4ad02c306d157af8f09ce86aadf5346e00605870dd/kmodes-0.12.2-py2.py3-none-any.whl", hash = "sha256:b764f7166dd5fe63826135ed74df796693dc7c25fc2cb8a106e14f3bfb371004", size = 20408, upload-time = "2022-09-06T19:36:34.956Z" },
 ]
 
 [[package]]
