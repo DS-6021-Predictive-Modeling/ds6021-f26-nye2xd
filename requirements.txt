@@ -37,7 +37,9 @@ ipython-pygments-lexers==1.1.1
 jedi==0.20.0
     # via ipython
 joblib==1.5.3
-    # via scikit-learn
+    # via
+    #   kmodes
+    #   scikit-learn
 jsonschema==4.26.0
     # via nbformat
 jsonschema-specifications==2025.9.1
@@ -51,6 +53,8 @@ jupyter-core==5.9.1
     #   nbformat
 kiwisolver==1.5.0
     # via matplotlib
+kmodes==0.12.2
+    # via ds6021-fall2026
 matplotlib==3.11.1
     # via
     #   ds6021-fall2026
@@ -71,6 +75,7 @@ numpy==2.5.2
     # via
     #   contourpy
     #   ds6021b
+    #   kmodes
     #   matplotlib
     #   pandas
     #   patsy
@@ -137,10 +142,13 @@ rpds-py==2026.6.3
     #   jsonschema
     #   referencing
 scikit-learn==1.9.0
-    # via ds6021-fall2026
+    # via
+    #   ds6021-fall2026
+    #   kmodes
 scipy==1.18.0
     # via
     #   ds6021-fall2026
+    #   kmodes
     #   scikit-learn
     #   statsmodels
 seaborn==0.13.2
